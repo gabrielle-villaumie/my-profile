@@ -48,14 +48,11 @@ a {
   font-weight: 400;
 }
 
-a:hover {
-  color: #221E1B;
-  text-decoration: underline dotted;
-}
+
 
 /* Pour les images */
 img {
-  max-width: 50%;
+  max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -63,18 +60,21 @@ img {
   border: 5px solid #F78E69;
 }
 
-.colored-link {
-  color: #F78E69;
-  font-weight: bold;
+
+
+
 }
 
+
 #photo {
-  width: 300px;
+  width: 1000px;
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
-.header {
+
+
+.card-white {
 	background: white;
 	padding: 30px;
 	border-radius: 4px;
@@ -82,41 +82,23 @@ img {
 	margin-bottom: 40px;
 }
 
-.container {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 50px;
-	flex-wrap: wrap;
-}
 
-.button-orange {
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
+.btn-orange {
+ display: inline-block;
+  padding: 10px 20px;
   background-color: #F78E69;
-  border-radius: 6px;
-  transition: all 0.3s ease-in-out;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.button-orange:hover {
-  color: #fff;
+.btn-orange:hover {
+  background-color: #A29F15;
+  text-decoration: underline dotted
 }
 
-
-
-.box {
-	background: white;
-	padding: 30px;
-	border-radius: 4px;
-	box-shadow: 0 10px 30px rgba(0,0,0,.1);
-	flex-basis: calc(33.33% - 90px);
-	width: 300px;
-	margin-bottom: 20px;
-}
 
 @media (max-width:760px) {
 	.container {
@@ -127,3 +109,64 @@ img {
 		width: auto;
 	}
 }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline {
+  display: inline;
+  padding-left: 10px;
+}
+
+.list-inline {
+  font-size: 20px;
+  color: #F78E69;
+}
+
+.list-inline i:hover{
+  font-size: 20px;
+  color: #A29F15;
+}
+
+.footer-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  margin-bottom: 40px;
+}
+
+.footer-white h2 {
+  text-align: center;
+}
+
+.footer-white ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-white ul li {
+  margin-right: 20px;
+}
+
+.footer-white ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-white ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-white ul li a:hover {
+  color: white;
+}
+
+
+
+
+
