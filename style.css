@@ -1,0 +1,129 @@
+/* Pour le corps de la page */
+body {
+  background-color: #FFFFEA;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #221E1B;
+  margin: 50px;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Pour les titres h1 et h2 */
+h1, h2 {
+  line-height: 1.2;
+  margin: 50px 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 60px;
+  font-size: 60px;
+  font-weight: 400;
+  color:#F78E69;
+  font-family:'Permanent Marker', cursive;
+  transform: rotate(-3deg);
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #A29F15;
+  margin-top: 30px;
+  font-family: Josefin Regular 400
+}
+
+/* Pour les paragraphes */
+p {
+  margin-top: 20px;
+}
+
+/* Pour les liens */
+a {
+  color: ##A29F15;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #221E1B;
+  text-decoration: underline dotted;
+}
+
+/* Pour les images */
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 5px solid #F78E69;
+}
+
+.colored-link {
+  color: #F78E69;
+  font-weight: bold;
+}
+
+#photo {
+  width: 300px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.header {
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin-bottom: 40px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+}
+
+.button-orange {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #F78E69;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-orange:hover {
+  color: #fff;
+}
+
+
+
+.box {
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	flex-basis: calc(33.33% - 90px);
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+@media (max-width:760px) {
+	.container {
+		justify-content: center;
+	}
+	.box {
+		flex-basis: 100%;
+		width: auto;
+	}
+}
